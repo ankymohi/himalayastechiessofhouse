@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Learn More</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Basic styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .services-section {
+      max-width: 1200px;
+      margin: 0 auto;
+      
+      text-align: center;
+    }
+
+    .services-section h1 {
+      font-size: 3rem;
+      color: #004080; /* Darker blue for the title */
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    .services-section p {
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 50px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      width: 280px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease-in-out;
+      position: relative;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      font-size: 1.5rem;
+      margin-top: 15px;
+      color: #004080;
+    }
+
+    .card p {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .service-action a {
+      display: inline-block;
+      background-color: #004080;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .service-action a:hover {
+      background-color: #0056b3;
+    }
+
+    /* Free Website tag */
+    .free-tag {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: red;
+      color: white;
+      padding: 5px 10px;
+      font-size: 0.9rem;
+      border-radius: 5px;
+    }
+
+    .logo {
+      height: 130px;
+      margin-bottom: -60px;
+      
+    }
+    /* Responsive design */
+    @media (max-width: 768px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+ <section class="services-section">
+  <img class="logo" src="assets/logo.png" alt="Inventory Management">
+    <h1>All-in-One Business Solutions</h1>
+    <p>
+      Subscribe for <strong>€49/month</strong> and enjoy premium management systems tailored to your business. 
+      Includes free software, free website, bug fixes, and server maintenance.
+    </p>
+  
+  <div class="container">
+    <!-- Card 1: Inventory Management System -->
+    <div class="card">
+      <div class="free-tag">Free Website</div>
+      <img src="assets/img/inventory.jpeg" alt="Inventory Management">
+      <h3>Inventory Management System</h3>
+      <p>Efficient stock tracking, sales management, and order processing for small shops.</p>
+      <div class="service-action">
+        <a href="learn.html?service=inventory-management-system">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Card 2: Car Dealership Management System -->
+    <div class="card">
+      <div class="free-tag">Free Website</div>
+      <img src="assets/img/cardealer.jpeg" alt="Car Dealership">
+      <h3>Car Dealership Management System</h3>
+      <p>Comprehensive management for car dealerships including sales tracking and inventory.</p>
+      <div class="service-action">
+        <a href="learn.html?service=car-dealership-management-system">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Card 3: Garage Management System -->
+    <div class="card">
+      <div class="free-tag">Free Website</div>
+      <img src="assets/img/garage.jpeg" alt="Garage Management">
+      <h3>Garage Management System</h3>
+      <p>Streamline garage operations, from scheduling repairs to managing parts inventory.</p>
+      <div class="service-action">
+        <a href="learn.html?service=garage-management-system">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Card 4: Gym Management System -->
+    <div class="card">
+      <div class="free-tag">Free Website</div>
+      <img src="assets/img/gym.jpeg" alt="Gym Management">
+      <h3>Gym Management System</h3>
+      <p>Manage memberships, schedules, and payments for gyms and fitness centers.</p>
+      <div class="service-action">
+        <a href="learn.html?service=gym-management-system">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Card 5: Pharmacy Management System -->
+    <div class="card">
+      <div class="free-tag">Free Website</div>
+      <img src="assets/img/pharmacy.jpeg" alt="Pharmacy Management">
+      <h3>Pharmacy Management System</h3>
+      <p>Manage stock, prescriptions, and sales in a pharmacy efficiently.</p>
+      <div class="service-action">
+        <a href="learn.html?service=pharmacy-management-system">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Card 6: Salon Management System -->
+    <div class="card">
+      <div class="free-tag">Free Website</div>
+      <img src="assets/img/salon.jpeg" alt="Salon Management">
+      <h3>Salon Management System</h3>
+      <p>Manage appointments, inventory, and customer data for salon businesses.</p>
+      <div class="service-action">
+        <a href="learn.html?service=salon-management-system">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Card 7: AC Repair and Other Services -->
+    <div class="card">
+      <div class="free-tag">Free Website</div>
+      <img src="assets/img/acrepair.jpeg" alt="AC Repair">
+      <h3>AC Repair and Other Services</h3>
+      <p>Efficient system for managing service requests, customer data, and appointments.</p>
+      <div class="service-action">
+        <a href="learn.html?service=ac-repair-and-services">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Card 8: Online Computer and Laptop Store -->
+    <div class="card">
+      <div class="free-tag">Free Website</div>
+      <img src="assets/img/computerservice.jpeg" alt="Online Computer Store">
+      <h3>Online Computer and Laptop Store</h3>
+      <p>Sell computers and accessories with a full e-commerce platform.</p>
+      <div class="service-action">
+        <a href="learn.html?service=online-computer-laptop-store">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Card 9: Book Store Management System -->
+    <div class="card">
+      <div class="free-tag">Free Website</div>
+      <img src="assets/img/bookstore.jpeg" alt="Book Store">
+      <h3>Book Store Management System</h3>
+      <p>Manage your inventory and sales for a successful online bookstore.</p>
+      <div class="service-action">
+        <a href="learn.html?service=book-store-management-system">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Card 10: Helmet Store / Canteen Management -->
+    <div class="card">
+      <div class="free-tag">Free Website</div>
+      <img src="assets/img/canteen.jpeg" alt="Helmet Store">
+      <h3>Helmet Store / Canteen Management</h3>
+      <p>Efficient system for managing inventory, sales, and customer data for a canteen or helmet store.</p>
+      <div class="service-action">
+        <a href="learn.html?service=helmet-canteen-management">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Card 11: Online Diagnostic Lab Management System / Clinic's Patient Management System -->
+<div class="card">
+  <div class="free-tag">Free Website</div>
+  <img src="assets/img/lab.jpeg" alt="Diagnostic Lab Management">
+  <h3>Online Diagnostic Lab Management System / Clinic's Patient Management System</h3>
+  <p>Efficient management of diagnostic lab operations and patient records for clinics.</p>
+  <div class="service-action">
+    <a href="learn.html?service=diagnostic-lab-management-system">Learn More</a>
+  </div>
+</div>
+
+<!-- Card 12: Simple Parking Management System -->
+<div class="card">
+  <div class="free-tag">Free Website</div>
+  <img src="assets/img/parking.jpeg" alt="Parking Management">
+  <h3>Simple Parking Management System</h3>
+  <p>Manage parking spaces and reservations with a simple, user-friendly system.</p>
+  <div class="service-action">
+    <a href="learn.html?service=parking-management-system">Learn More</a>
+  </div>
+</div>
+
+<!-- Card 13: Laundry Management System -->
+<div class="card">
+  <div class="free-tag">Free Website</div>
+  <img src="assets/img/loundry.jpeg" alt="Laundry Management">
+  <h3>Laundry Management System</h3>
+  <p>Track orders, deliveries, and inventory for laundry businesses efficiently.</p>
+  <div class="service-action">
+    <a href="learn.html?service=laundry-management-system">Learn More</a>
+  </div>
+</div>
+
+<!-- Card 14: Jewelry Shop Management System -->
+<div class="card">
+  <div class="free-tag">Free Website</div>
+  <img src="assets/img/jewelry.jpeg" alt="Jewelry Shop Management">
+  <h3>Jewelry Shop Management System</h3>
+  <p>Manage sales, inventory, and customer data for jewelry shops effectively.</p>
+  <div class="service-action">
+    <a href="learn.html?service=jewelry-shop-management-system">Learn More</a>
+  </div>
+</div>
+
+<!-- Card 15: Coffee Shop Cashiering System -->
+<div class="card">
+  <div class="free-tag">Free Website</div>
+  <img src="assets/img/cofeeshop.jpeg" alt="Coffee Shop Management">
+  <h3>Coffee Shop Cashiering System</h3>
+  <p>Manage orders, payments, and inventory for coffee shops and cafes.</p>
+  <div class="service-action">
+    <a href="learn.html?service=coffee-shop-management-system">Learn More</a>
+  </div>
+</div>
+
+<!-- Card 16: Online Car Wash Booking System -->
+<div class="card">
+  <div class="free-tag">Free Website</div>
+  <img src="assets/img/carwash.jpeg" alt="Car Wash Booking">
+  <h3>Online Car Wash Booking System</h3>
+  <p>Efficiently manage car wash bookings and customer service online.</p>
+  <div class="service-action">
+    <a href="learn.html?service=car-wash-booking-system">Learn More</a>
+  </div>
+</div>
+
+<!-- Card 17: Church Management Software -->
+<div class="card">
+  <div class="free-tag">Free Website</div>
+  <img src="assets/img/church.jpeg" alt="Church Management">
+  <h3>Church Management Software</h3>
+  <p>Organize church activities, donations, and member management easily.</p>
+  <div class="service-action">
+    <a href="learn.html?service=church-management-software">Learn More</a>
+  </div>
+</div>
+
+<!-- Card 18: Cosmetics and Beauty Product Online Store -->
+<div class="card">
+  <div class="free-tag">Free Website</div>
+  <img src="assets/img/cosmetics.jpeg" alt="Cosmetics Store">
+  <h3>Cosmetics and Beauty Product Online Store</h3>
+  <p>Sell beauty products with a fully integrated e-commerce system.</p>
+  <div class="service-action">
+    <a href="learn.html?service=cosmetics-beauty-product-store">Learn More</a>
+  </div>
+</div>
+
+<!-- Card 19: Simple Bakery Shop Management System -->
+<div class="card">
+  <div class="free-tag">Free Website</div>
+  <img src="assets/img/bakery.jpeg" alt="Bakery Shop Management">
+  <h3>Simple Bakery Shop Management System</h3>
+  <p>Track sales, orders, and inventory for bakery businesses with ease.</p>
+  <div class="service-action">
+    <a href="learn.html?service=bakery-shop-management-system">Learn More</a>
+  </div>
+</div>
+
+<!-- Card 20: Online Motorcycle (Bike) Rental System -->
+<div class="card">
+  <div class="free-tag">Free Website</div>
+  <img src="assets/img/bike.jpeg" alt="Motorcycle Rental">
+  <h3>Online Motorcycle (Bike) Rental System</h3>
+  <p>Manage bike rentals and reservations with a comprehensive online system.</p>
+  <div class="service-action">
+    <a href="learn.html?service=bike-rental-system">Learn More</a>
+  </div>
+</div>
+
+  </div>
+  </section>
+</body>
+</html>
