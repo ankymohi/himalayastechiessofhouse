@@ -24,7 +24,7 @@
     .services-section h1 {
       font-size: 3rem;
       color: #004080; /* Darker blue for the title */
-      margin-bottom: 20px;
+      margin-bottom: -10px;
       letter-spacing: 1px;
     }
 
@@ -37,7 +37,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      margin-top: 20px;
+      margin-top: -20px;
     }
 
     .card {
@@ -112,6 +112,42 @@
         width: 100%;
       }
     }
+
+
+    /* Phone Responsiveness */
+@media (max-width: 768px) {
+  .services-section {
+    padding: 15px;
+  }
+
+ 
+  .services-section h1 {
+    padding-top: 30px;
+  }
+
+  .services-section p {
+    font-size: 1rem;
+    max-width: 100%; /* Ensure text fits small screens */
+  }
+}
+
+/* Small Phone Responsiveness */
+@media (max-width: 480px) {
+  .services-section {
+    padding: 10px;
+  }
+
+ 
+
+  .services-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .services-section p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+}
   </style>
 </head>
 <body>
